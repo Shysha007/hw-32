@@ -19,7 +19,7 @@ elemLi[0].setAttribute(`data-my-name`, `Olga`);
 elemUl.removeAttribute(`data-dog-tail`);
 
 function generateList(array) {
-    const ul = document.createElement('ul');
+    let ul = document.createElement('ul');
     document.body.append(ul);
 
     for (let i = 0; i < array.length; i++) {
